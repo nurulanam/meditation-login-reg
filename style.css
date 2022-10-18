@@ -83,6 +83,14 @@ main{
 }
 /* footer start  */
 
+.navigation .nav .nav-item .nav-link{
+    color: #fff !important;
+    transition: all 0.3s;    
+}
+.navigation .nav .nav-item:hover .nav-link{
+    color: rgb(41, 117, 231) !important; 
+}
+
 .social_icons .nav .nav-item .nav-link i{
 
     transition: all 0.3s;
@@ -90,6 +98,9 @@ main{
 }
 .social_icons .nav .nav-item:hover .nav-link i{
 
-    color: #2f77e4 !important;
+    color: #fff !important;
     
+}
+.bg-darkBlue{
+    background-color: #202a48;
 }
